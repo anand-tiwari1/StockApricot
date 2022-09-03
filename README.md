@@ -1,4 +1,4 @@
-dayZero_Task2
+
 ==============================
 
 Collect stock data and generate weekly report
