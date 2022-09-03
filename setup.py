@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='Collect stock data and generate weekly report',
-    author='Samarth Mishra',
+    author='Anand Tiwari',
     license='MIT',
 )
