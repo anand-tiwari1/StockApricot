@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71158024-bdc0-407a-bcc5-1d9cea439199" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StockApricot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/commands.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/getting-started.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/references/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/figures/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/weekly_report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AAPL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AMD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AMZN.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AZ.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/BABA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/GOOG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/GOOGL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/KO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/MA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/META.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/MSFT.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/NIO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/NVDA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/ORCL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/PEP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/PFE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/SHOP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/TM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/TSLA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/build_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/collected_sample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gainers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/losers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/put_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/put_request.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/put_weekly_data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sql_query.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sqlalchemy_engine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/table_structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/top_gainers_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/top_losers_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/weeklyRep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/weekly_report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/predict_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/put_data_into_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/put_weekly_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stockData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ticker_symbols.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualization/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualization/visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/weekly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2EFf9Gjlgwggi6Ma1f8H0a2XbKh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ANAND\IdeaProjects\StockApricot\" />
+      <recent name="C:\Users\ANAND\IdeaProjects\StockApricot" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71158024-bdc0-407a-bcc5-1d9cea439199" name="Changes" comment="" />
+      <created>1662196185580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662196185580</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
