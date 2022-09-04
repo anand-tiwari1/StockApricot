@@ -54,33 +54,28 @@ Project Organization
 
 --------
 
-# dayzero-python-problem-solutions
+The contents of this repository can be run and results can be fetched by installig necessary Python packages available in requirements.txt. Additionally, we have run the program over ticker symbols provided in ticker_symbols.txt.
 
-## Task 2
+This project can be categorized into the following steps:
+- Step 1: Data collection, cleaning and preprocessing
+- Step 2: Putting the stock data collected into suitable databases
+- Step 3: Create a Flask REST API for desired routes, query the data and store the required ouput in a CSV file
 
-The contents of this repository can be run and resukts can be fetched by installig becessary Python packages available in requirements.txt. Additionally, we have run the program over ticker symbols provided in ticker_symbols.txt.
+To accomplish the steps the following scripts and algorithms have been created:
+- Steps 1: Data collection and processing using [stockData.py]("stockData.py")
+- Steps 2: Databse creation and insertion using [put_weekly_data.py]("put_weekly_data.py"),[put_data_into_db.py]("put_data_into_db.py") and [test.py]("test.py")
+- Steps 3: Flask REST API using [gainersLosers.py]("gainersLosers.py") and [weekly.py]("weekly.py")
 
-This task can be categorized into the following subtasks:
-- Subtask 1: Data collection, cleaning and preprocessing
-- Subtask 2: Putting the stock data collected into suitable databases
-- Subtask 3: Create a Flask REST API for desired routes, query the data and store the required ouput in a CSV file
+## Step 1 (Fetching Data and Preprocessing)
 
-To accomplish the subtasks the folllowing scripts and algorithms have been created:
-- Subtask 1: Data collection and processing using [stockData.py]("stockData.py)
-- Subtask 2: Databse creation and insertion using [put_weekly_data.py]("put_weekly_data.py"),[put_data_into_db.py]("put_data_into_db.py") and [test.py]("test.py")
-- Subtask 3: Flask REST API using [gainersLosers.py]("gainersLosers.py") and [weekly.py]("weekly.py")
-
-## Subtask 1 (Fetching Data and Preprocessing)
-
-Historic stock data is retrieved from Yahoo Finance in a fashion similar to that in [Task 1]("https://github.com/samarth1029/DayZero_Task1"). 
-Thereafter, since the desired table needs to have an id, we modify the pandas dataframe and add id using auto id generating package of Python,uuid whose documentation can be studied from [here]("https://docs.python.org/3/library/uuid.html").
+The desired table needs to have an id, we modify the pandas dataframe and add id using auto id generating package of Python,uuid whose documentation can be studied from [here]("https://docs.python.org/3/library/uuid.html").
 We also add an additional attribute to the dataframe, namely 'high_diff', which is the increment percentage between two consecutive stock dates for each ticker symbol. Note that, a negative sign denotes that there was a decrement in stock prices today (since yesterday).
 All the computed data is stored in the data folder as CSV files under this repository.
 A sample CSV file in this folder for 'AAPL' looks like this:
 
 <img src="src/images/collected_sample.png" height=300 width=900>
 
-## Subtask 2 (Database Handling)
+## Step 2 (Database Handling)
 
 Here an attempt has been made to create two databases:
 - weekStock.db
@@ -118,11 +113,11 @@ The following is a glimpse at the table in the databse we just created:
 
 <img src="src/images/put_data.png" height=300 width=1000>
 
-In this way, we have set up all databases,tables and CSVs to proceed with creation of a Flask REST API under Subtask 3.
+In this way, we have set up all databases,tables and CSVs to proceed with creation of a Flask REST API under Step 3.
 
-## Subtask 3 (Flask REST API)
+## Step 3 (Flask REST API)
 
-Subtask 3 can be further divided into 3 categories, which accomplish the task of creation of three endpoints/routes/paths:
+Step 3 can be further divided into 3 categories, which accomplish the task of creation of three endpoints/routes/paths:
 - /get_top_gainers
  The endpoint returns the top 10 stocks whose price increased as compared to the previous day in a JSON structure.
  This is inside [gainersLosers.py]("gainersLosers.py").
